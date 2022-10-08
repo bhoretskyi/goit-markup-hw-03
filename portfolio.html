@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,17 +51,18 @@
     </header>
     <main>
       <section>
+        <div class="container">
         <h1 class="visually-hidden">Портфоліо</h1>
-        <ul class="list">
-          <li><button type="button" class="button-list">Усі</button></li>
-          <li><button type="button" class="button-list">Веб-сайти</button></li>
-          <li><button type="button" class="button-list">Додатки</button></li>
-          <li><button type="button" class="button-list">Дизайн</button></li>
-          <li><button type="button" class="button-list">Маркетинг</button></li>
+        <ul class="list buttons">
+          <li class="item"><button type="button" class="button-list item">Усі</button></li>
+          <li class="item"><button type="button" class="button-list item">Веб-сайти</button></li>
+          <li class="item"><button type="button" class="button-list item">Додатки</button></li>
+          <li class="item"><button type="button" class="button-list item">Дизайн</button></li>
+          <li class="item"><button type="button" class="button-list item">Маркетинг</button></li>
         </ul>
 
-        <ul class="list">
-          <li>
+        <ul class="list portfolio-list">
+          <li class="item">
             <a href="#" class="link"
               ><img
                 src="./images/technokryak.jpg"
@@ -70,7 +73,7 @@
               <p class="project-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a href="#" class="link"
               ><img
                 src="./images/new-orlean.jpg"
@@ -81,7 +84,7 @@
               <p class="project-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a href="#" class="link"
               ><img
                 src="./images/seafood.jpg"
@@ -92,21 +95,21 @@
               <p class="project-text">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a href="#" class="link"
               ><img src="./images/prime.jpg" width="370" alt="Проєкт Prime" />
               <h2 class="project-title">Проєкт Prime</h2>
               <p class="project-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a href="#" class="link"
               ><img src="./images/boxes.jpg" width="370" alt="Проєкт Boxes" />
               <h2 class="project-title">Проєкт Boxes</h2>
               <p class="project-text">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a href="#" class="link"
               ><img
                 src="./images/inspiration.jpg"
@@ -116,7 +119,7 @@
               <h2 class="project-title">Inspiration has no Borders</h2>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a href="#" class="link"
               ><img
                 src="./images/limited-edition.jpg"
@@ -127,14 +130,14 @@
               <p class="project-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a href="#" class="link"
               ><img src="./images/lab.jpg" width="370" alt="Проєкт LAB" />
               <h2 class="project-title">Проєкт LAB</h2>
               <p class="project-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a href="#" class="link"
               ><img
                 src="./images/growing-business.jpg"
@@ -146,6 +149,7 @@
             </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
