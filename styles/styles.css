@@ -44,7 +44,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  
 }
 
 .title-hero {
@@ -115,8 +115,11 @@ img {
 }
 /* Хедер */
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
   background-color: var(--primary-white-color);
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
+
 }
 
 /* Навигація */
@@ -137,10 +140,7 @@ img {
 }
 .nav-list {
   display: flex;
-  
-  
 }
-
 
 .nav-list .item:not(:last-child) {
   margin-right: 50px;
@@ -149,24 +149,21 @@ img {
 .contact-list {
   display: flex;
   align-items: center;
-
 }
 .contact-list .item:not(:last-child) {
   margin-right: 50px;
-   /* gap: 50px; */
+  /* gap: 50px; */
 }
 
 .main-nav {
   display: flex;
   align-items: center;
-  
 }
 
 .header-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 /* Укритий заголовок */
 
@@ -197,7 +194,7 @@ img {
 .team-title {
   margin-top: 30px;
   margin-bottom: 10px;
-  
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -220,21 +217,18 @@ img {
 }
 /* Секция-герой */
 
-  
-
 .section-hero {
   background-color: #2f303a;
   text-align: center;
-  
 }
 .button {
   border-radius: 4px;
-    width: 217px;
-    height: 50px;
-    margin: 0 auto;
-    display: block;
-    margin-top: 30px;
-    
+  width: 217px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-family: "Roboto";
@@ -248,14 +242,12 @@ img {
 .benefits {
   margin-top: 94px;
   margin-bottom: 94px;
-
 }
 .benefits-list {
   display: flex;
 }
 .benefits-list .item:not(:last-child) {
   margin-right: 30px;
-
 }
 
 /* About */
@@ -275,6 +267,7 @@ img {
 /* Футер */
 .footer {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -336,10 +329,10 @@ img {
 /* Кнопки портфоліо */
 .button-list {
   margin-bottom: 50px;
-    padding: 6px 22px;
-    border-radius: 4px;
-    border: 0;
-  
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: 0;
+
   color: var(--title-text-color);
   background-color: #f5f4fa;
   font-family: "Roboto";
@@ -359,7 +352,6 @@ img {
 .buttons {
   display: flex;
   justify-content: center;
-
 }
 .buttons .item:not(:last-child) {
   margin-right: 8px;
@@ -371,12 +363,11 @@ img {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  
 }
 
 .portfolio-list .item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-
+  border: 1px solid #EEEEEE;
 }
