@@ -325,7 +325,6 @@ img {
 }
 /* Кнопки портфоліо */
 .button-list {
-  margin-bottom: 50px;
   padding: 6px 22px;
   border-radius: 4px;
   border: 0;
@@ -349,6 +348,7 @@ img {
 .buttons {
   display: flex;
   justify-content: center;
+  padding-bottom: 34px;
 }
 .buttons .item:not(:last-child) {
   margin-right: 8px;
