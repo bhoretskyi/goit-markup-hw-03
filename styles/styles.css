@@ -44,12 +44,10 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  
 }
 
 .title-hero {
   width: 696px;
-  padding-top: 200px;
   margin: 0 auto;
 
   color: var(--primary-white-color);
@@ -117,7 +115,6 @@ img {
 .header {
   background-color: var(--primary-white-color);
   border-bottom: 1px solid #ececec;
-
 }
 
 /* Навигація */
@@ -369,5 +366,5 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
