@@ -115,8 +115,6 @@ img {
 }
 /* Хедер */
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   background-color: var(--primary-white-color);
   border-bottom: 1px solid #ececec;
 
@@ -220,6 +218,8 @@ img {
 .section-hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .button {
   border-radius: 4px;
@@ -240,8 +240,8 @@ img {
 
 /* Бенефіти */
 .benefits {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
 .benefits-list {
   display: flex;
